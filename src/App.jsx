@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";
-import Dashboard from "./pages/Dashboard";
-import CalendarPage from "./pages/CalendarPage";
-import KanbanBoard from "./pages/KanbanBoard";
-import Settings from "./pages/Settings";
+import Dashboard from "./Pages/Dashboard";
+import CalendarPage from "./Pages/CalendarPage";
+import KanbanBoard from "./Pages/KanbanBoard";
+import Settings from "./Pages/Settings";
 import "./App.css";
 
 export default function AdminDashboardApp() {
